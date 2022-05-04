@@ -9,9 +9,9 @@ public class Main {
         double paymеnt = service.calculate(month, loan, percent);
         double paymеnt2 = service.calculate(month2, loan, percent);
         double paymеnt3 = service.calculate(month3, loan, percent);
-        String result = String.format("%.0f",paymеnt);
-        String result2 = String.format("%.0f",paymеnt2);
-        String result3 = String.format("%.0f",paymеnt3);
+        String result = String.format("%.0f", paymеnt);
+        String result2 = String.format("%.0f", paymеnt2);
+        String result3 = String.format("%.0f", paymеnt3);
         System.out.println(result);
         System.out.println(result2);
         System.out.println(result3);
